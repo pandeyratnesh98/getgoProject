@@ -1,0 +1,40 @@
+.card {
+  margin-top: 25px;
+  margin-bottom: 40px;
+}
+
+.page-title {
+  margin: auto;
+  margin-bottom: 25px;
+  background-color: white;
+  border-bottom: white;
+}
+
+.paragraph-content {
+  margin: 40px;
+  margin-top: 0px;
+  font-size: 1.2rem;
+}
+.extra-margin {
+  margin: 0px 25px 20px;
+}
+
+.search-bar {
+  margin: 25px 50px;
+}
+
+.search-input {
+  width: 1200px !important;
+  margin-right: 30px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+@media (max-width: 576px) {
+  .search-input {
+    width: 350px !important;
+    margin-right: 30px;
+  }
+}
