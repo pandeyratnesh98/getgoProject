@@ -24,3 +24,7 @@ export const whetherDetailsByCityName =
       });
     }
   };
+
+export const DataClear = () => (dispatch) => {
+  dispatch({ type: "DATA_CLEAR", payload: { response: "" } });
+};

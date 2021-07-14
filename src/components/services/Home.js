@@ -4,7 +4,6 @@ import { connect } from "react-redux";
 import { whetherDetailsByCityName } from "../../action";
 
 const Home = (props) => {
-  console.log(props);
   const response = props.wheatherData.response;
   const [city, setcityName] = useState("");
   return (
@@ -50,8 +49,8 @@ const Home = (props) => {
   );
 };
 
-const mapStringToPripos = (state) => {
+const mapStringToProps = (state) => {
   return { wheatherData: state.home };
 };
 
-export default connect(mapStringToPripos, { whetherDetailsByCityName })(Home);
+export default connect(mapStringToProps, { whetherDetailsByCityName })(Home);
